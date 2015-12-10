@@ -7,6 +7,8 @@ using Microsoft.AspNet.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using EFGetStarted.AspNet5.NewDb.Models;
+using Microsoft.Data.Entity;
 
 namespace EFGetStarted.AspNet5.NewDb
 {
@@ -26,6 +28,12 @@ namespace EFGetStarted.AspNet5.NewDb
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connection = @"Server=(localdb)\mssqllocaldb;Database=EFGetStarted.AspNet5.NewDb;Trusted_Connection=True;";
+
+            services.AddEntityFramework()
+                .AddSqlServer()
+                .AddDbContext<BloggingContext>(options => options.UseSqlServer(connection));
+
             // Add framework services.
             services.AddMvc();
         }

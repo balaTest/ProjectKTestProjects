@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E83625FE-AB06-4236-8748-F866871E06E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D24DADA-D057-45DB-8D38-3DC59F35216B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KTestingDemo", "src\KTestingDemo\KTestingDemo.xproj", "{B9D7DAE6-FD36-4589-886D-45549144FE4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9D7DAE6-FD36-4589-886D-45549144FE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D7DAE6-FD36-4589-886D-45549144FE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D7DAE6-FD36-4589-886D-45549144FE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D7DAE6-FD36-4589-886D-45549144FE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B9D7DAE6-FD36-4589-886D-45549144FE4F} = {E83625FE-AB06-4236-8748-F866871E06E0}
+	EndGlobalSection
+EndGlobal

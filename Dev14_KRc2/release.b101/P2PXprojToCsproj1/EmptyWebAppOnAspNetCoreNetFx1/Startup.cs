@@ -22,7 +22,10 @@ namespace EmptyWebAppOnAspNetCoreNetFx1
         {
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+
+                ClassLibraryOnNetFx1.Class1 c = new ClassLibraryOnNetFx1.Class1();
+                
+                await context.Response.WriteAsync($"Hi World ! {c.GetHello()}. {c.Resource1.Name1}");
             });
         }
     }

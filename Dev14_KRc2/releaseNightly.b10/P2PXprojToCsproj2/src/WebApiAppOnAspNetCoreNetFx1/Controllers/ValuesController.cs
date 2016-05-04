@@ -13,7 +13,8 @@ namespace WebApiAppOnAspNetCoreNetFx1.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            ClassLibraryOnNetFx1.Class1 c1 = new ClassLibraryOnNetFx1.Class1();
+            return new string[] { $"value1 {c1.GetHello()}", "value2" };
         }
 
         // GET api/values/5

@@ -1,4 +1,4 @@
-﻿{
+{
   "dependencies": {
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0-rc2-20634",
     "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-20634"
@@ -12,7 +12,13 @@
   },
 
   "frameworks": {
-    "net452": { }
+    "net452": {
+      "dependencies": {
+        "ClassLibraryOnNetFx1": {
+          "target": "project"
+        }
+      }
+    }
   },
 
   "compilationOptions": {

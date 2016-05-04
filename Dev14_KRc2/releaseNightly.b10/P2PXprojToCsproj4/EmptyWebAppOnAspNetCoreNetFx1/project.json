@@ -16,6 +16,9 @@
       "dependencies": {
         "ClassLibraryOnNetFx1": {
           "target": "project"
+        },
+        "ClassLibraryOnNetFx2": {
+          "target": "project"
         }
       }
     }

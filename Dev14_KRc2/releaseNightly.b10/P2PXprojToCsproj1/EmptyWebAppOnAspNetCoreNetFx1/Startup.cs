@@ -21,9 +21,10 @@ namespace EmptyWebAppOnAspNetCoreNetFx1
         public void Configure(IApplicationBuilder app)
         {
             ClassLibraryOnNetFx1.Class1 c1 = new ClassLibraryOnNetFx1.Class1();
+            PortableClassLibrary1.Class1 c2 = new PortableClassLibrary1.Class1();
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync($"Hello World! {c1.GetHello()}");
+                await context.Response.WriteAsync($"Hello World! {c1.GetHello()} {c2.GetHello()} ");
             });
         }
     }

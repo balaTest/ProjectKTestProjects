@@ -16,6 +16,9 @@
       "dependencies": {
         "ClassLibraryOnNetFx1": {
           "target": "project"
+        },
+        "PortableClassLibrary1": {
+          "target": "project"
         }
       }
     }

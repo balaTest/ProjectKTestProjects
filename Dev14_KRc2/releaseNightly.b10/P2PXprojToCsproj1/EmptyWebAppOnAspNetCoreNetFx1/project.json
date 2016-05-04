@@ -12,7 +12,13 @@
   },
 
   "frameworks": {
-    "net452": { }
+    "net452": {
+      "dependencies": {
+        "ClassLibraryOnNetFx1": {
+          "target": "project"
+        }
+      }
+    }
   },
 
   "compilationOptions": {

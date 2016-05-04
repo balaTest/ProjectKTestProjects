@@ -20,9 +20,10 @@ namespace EmptyWebAppOnAspNetCoreNetFx1
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app)
         {
+            ClassLibraryOnNetFx1.Class1 c1 = new ClassLibraryOnNetFx1.Class1();
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync($"Hello World! {c1.GetHello()}");
             });
         }
     }

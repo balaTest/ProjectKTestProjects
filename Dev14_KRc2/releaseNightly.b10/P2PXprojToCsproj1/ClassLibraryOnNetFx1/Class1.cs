@@ -10,7 +10,7 @@ namespace ClassLibraryOnNetFx1
     {
         public string GetHello()
         {
-            return "Hello from ClassLibraryOnNetFx1";
+            return "Hello there from ClassLibraryOnNetFx1!";
         }
     }
 }

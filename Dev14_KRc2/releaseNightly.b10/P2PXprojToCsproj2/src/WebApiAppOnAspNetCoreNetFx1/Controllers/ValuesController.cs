@@ -14,7 +14,8 @@ namespace WebApiAppOnAspNetCoreNetFx1.Controllers
         public IEnumerable<string> Get()
         {
             ClassLibraryOnNetFx1.Class1 c1 = new ClassLibraryOnNetFx1.Class1();
-            return new string[] { $"value1 {c1.GetHello()}", "value2" };
+            XplatPortableClassLibrary1.Class1 c2 = new XplatPortableClassLibrary1.Class1();
+            return new string[] { $"value1 {c1.GetHello()}", $"value2 {c2.GetHello()}" };
         }
 
         // GET api/values/5

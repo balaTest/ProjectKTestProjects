@@ -22,6 +22,9 @@
       "dependencies": {
         "ClassLibraryOnNetFx1": {
           "target": "project"
+        },
+        "XplatPortableClassLibrary1": {
+          "target": "project"
         }
       }
     }

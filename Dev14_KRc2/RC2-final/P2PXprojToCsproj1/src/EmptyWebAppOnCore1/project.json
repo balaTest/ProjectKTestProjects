@@ -1,4 +1,4 @@
-﻿{
+{
   "dependencies": {
     "Microsoft.NETCore.App": {
       "version": "1.0.0-rc2-3002702",
@@ -21,7 +21,12 @@
         "dotnet5.6",
         "dnxcore50",
         "portable-net45+win8"
-      ]
+      ],
+      "dependencies": {
+        "PortableClassLibrary1": {
+          "target": "project"
+        }
+      }
     }
   },
 

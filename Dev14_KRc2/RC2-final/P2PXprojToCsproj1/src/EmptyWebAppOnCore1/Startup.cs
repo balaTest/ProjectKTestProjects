@@ -20,9 +20,10 @@ namespace EmptyWebAppOnCore1
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app)
         {
+            PortableClassLibrary1.Class1 c = new PortableClassLibrary1.Class1();
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync($"Hello World! { c.GetHello() }");
             });
         }
     }

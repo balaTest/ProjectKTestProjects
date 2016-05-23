@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EmptyWebAppOnCore1", "src\EmptyWebAppOnCore1\EmptyWebAppOnCore1.xproj", "{C6D519A3-D903-40E1-ACEC-3C608B83A017}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableClassLibrary1", "src\PortableClassLibrary1\PortableClassLibrary1.csproj", "{F5C94324-3158-4A2B-8CC1-462157E9CE67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{C6D519A3-D903-40E1-ACEC-3C608B83A017}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6D519A3-D903-40E1-ACEC-3C608B83A017}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6D519A3-D903-40E1-ACEC-3C608B83A017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C94324-3158-4A2B-8CC1-462157E9CE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C94324-3158-4A2B-8CC1-462157E9CE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C94324-3158-4A2B-8CC1-462157E9CE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C94324-3158-4A2B-8CC1-462157E9CE67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C6D519A3-D903-40E1-ACEC-3C608B83A017} = {121B8367-3D38-4AD1-9D0E-17134910A4BB}
+		{F5C94324-3158-4A2B-8CC1-462157E9CE67} = {121B8367-3D38-4AD1-9D0E-17134910A4BB}
 	EndGlobalSection
 EndGlobal

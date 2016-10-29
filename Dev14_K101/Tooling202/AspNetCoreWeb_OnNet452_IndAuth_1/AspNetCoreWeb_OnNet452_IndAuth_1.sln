@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{25965F91-EE52-4E3B-BC85-B62C0687208C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5D4A2EC-252B-447C-871E-44A64C1D4263}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCoreWeb_OnNet452_IndAuth_1", "src\AspNetCoreWeb_OnNet452_IndAuth_1\AspNetCoreWeb_OnNet452_IndAuth_1.xproj", "{D35621EB-2F3B-4AC3-9508-274F2BE2929B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D35621EB-2F3B-4AC3-9508-274F2BE2929B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35621EB-2F3B-4AC3-9508-274F2BE2929B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35621EB-2F3B-4AC3-9508-274F2BE2929B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35621EB-2F3B-4AC3-9508-274F2BE2929B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D35621EB-2F3B-4AC3-9508-274F2BE2929B} = {25965F91-EE52-4E3B-BC85-B62C0687208C}
+	EndGlobalSection
+EndGlobal
